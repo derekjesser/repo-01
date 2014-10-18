@@ -1,0 +1,130 @@
+/*
+ *	Defaults - 1.0
+ * -----------------------------------------------------------------------------
+ */
+body
+{
+	background-color: #999;
+	width: auto;
+}
+
+nav ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*
+ *	Header - 1.0
+ * -----------------------------------------------------------------------------
+ */
+header
+{
+	min-height: 65px;
+}
+
+header .top
+{
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	max-width: none;
+	height: 65px;
+	z-index: 1;
+}
+
+header .top .title
+{
+	color: #fff;
+	float: left;
+	font-size: 2rem;
+	margin-right: 20px;
+}
+
+header .top .subtitle
+{
+	color: #fff;
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	padding: 10px;
+}
+
+header nav
+{
+	float: right;
+}
+
+header nav ul li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+header nav ul li a
+{
+	line-height: 3.5em;
+	padding: 15px;
+}
+
+
+/*
+ *	Main - 1.0
+ * -----------------------------------------------------------------------------
+ */
+#main .content,
+#main .cta
+{
+	padding: 40px 40px;
+}
+
+#main .content
+{
+	background-color: #ccc;
+}
+
+#main .sidebar
+{
+	padding: 20px;
+}
+
+#main .sidebar nav
+{
+	margin-left: 40px;
+}
+
+
+/*
+ *	Footer - 1.0
+ * -----------------------------------------------------------------------------
+ */
+footer
+{
+	background-color: #333;
+	color: #fff;
+}
+
+footer nav
+{
+	float: right;
+}
+
+footer nav ul li
+{
+	display: inline-block;
+	list-style: none;
+}
+
+footer nav ul li a
+{
+	line-height: 3.5em;
+	padding: 15px;
+}
+
+footer .copyright
+{
+	font-size: .8em;
+	padding: 15px 0;
+}
